@@ -18,7 +18,7 @@ loaded_le = pickle.load(open("credit_score_multi_class_le.pkl", "rb"))
 loaded_enc = pickle.load(open("credit_score_multi_class_ord_encoder.pkl", "rb"))
 cat = ['Credit_Mix']
 
-st.markdown("<h2 style='text-align:center; color:Orange;'>Credit Score Classification</h2>", unsafe_allow_html=True)
+st.markdown("<h2 style='text-align:center; color:Orange;'>Credit Score Predictor</h2>", unsafe_allow_html=True)
 
 # Define User Input Function
 def user_input_data():
