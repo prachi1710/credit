@@ -9,6 +9,7 @@ import streamlit as st
 import streamlit.components.v1 as components
 from xgboost import XGBClassifier
 import pickle
+from sklearn.preprocessing import LabelEncoder, OrdinalEncoder
 
 # Load the model and encoders from files
 loaded_model = XGBClassifier()
